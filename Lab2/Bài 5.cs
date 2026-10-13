@@ -104,7 +104,7 @@ namespace Lab2
             }
             File.WriteAllText("output5.txt", kq);
             rtxtThongKe.Text = kq;
-            MessageBox.Show("Đã xuất input5.txt");
+            MessageBox.Show("Xuất thống kê thành công!\nDữ liệu đã được lưu vào file output5.txt");
         }
         private void cbPhim_SelectedIndexChanged(object sender, EventArgs e)
         {

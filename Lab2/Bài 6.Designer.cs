@@ -203,7 +203,7 @@
             Controls.Add(btnThucDon);
             Controls.Add(lbTieuDe);
             Name = "Bài_6";
-            Text = "bài_6";
+            Text = "Bài_6";
             Load += Bài_6_Load;
             ((System.ComponentModel.ISupportInitialize)picHinh).EndInit();
             ResumeLayout(false);

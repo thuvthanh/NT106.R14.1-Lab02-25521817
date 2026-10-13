@@ -56,8 +56,6 @@ namespace Lab2
         private double Tinh(string a)
         {
             bieuthuc = a.Replace(" ", "");
-            if (bieuthuc == "")
-                throw new Exception("Biểu thức rỗng");
             vitri = 0;
             double ketqua = CongTru();
             if (vitri < bieuthuc.Length)

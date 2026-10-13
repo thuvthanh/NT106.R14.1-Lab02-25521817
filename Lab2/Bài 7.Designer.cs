@@ -50,10 +50,10 @@
             // 
             // rtxtNoiDung
             // 
-            rtxtNoiDung.Location = new Point(534, 224);
+            rtxtNoiDung.Location = new Point(483, 224);
             rtxtNoiDung.Name = "rtxtNoiDung";
             rtxtNoiDung.ScrollBars = RichTextBoxScrollBars.ForcedVertical;
-            rtxtNoiDung.Size = new Size(261, 161);
+            rtxtNoiDung.Size = new Size(312, 200);
             rtxtNoiDung.TabIndex = 2;
             rtxtNoiDung.Text = "";
             // 
@@ -69,9 +69,11 @@
             // lboThuMuc
             // 
             lboThuMuc.FormattingEnabled = true;
+            lboThuMuc.HorizontalScrollbar = true;
             lboThuMuc.Location = new Point(41, 224);
             lboThuMuc.Name = "lboThuMuc";
-            lboThuMuc.Size = new Size(372, 144);
+            lboThuMuc.ScrollAlwaysVisible = true;
+            lboThuMuc.Size = new Size(372, 200);
             lboThuMuc.TabIndex = 4;
             lboThuMuc.SelectedIndexChanged += lboThuMuc_SelectedIndexChanged;
             lboThuMuc.DoubleClick += lboThuMuc_DoubleClick;
@@ -96,7 +98,7 @@
             // 
             picNoiDung.Location = new Point(483, 224);
             picNoiDung.Name = "picNoiDung";
-            picNoiDung.Size = new Size(312, 161);
+            picNoiDung.Size = new Size(312, 200);
             picNoiDung.SizeMode = PictureBoxSizeMode.StretchImage;
             picNoiDung.TabIndex = 8;
             picNoiDung.TabStop = false;
@@ -106,13 +108,13 @@
             AutoScaleDimensions = new SizeF(11F, 28F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(880, 504);
-            Controls.Add(picNoiDung);
             Controls.Add(txtDuongDan);
             Controls.Add(lbDuonngDan);
             Controls.Add(lboThuMuc);
             Controls.Add(lbNoiDung);
             Controls.Add(rtxtNoiDung);
             Controls.Add(lbTieuDe);
+            Controls.Add(picNoiDung);
             Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Name = "Bài_7";
             Text = "Bài_7";

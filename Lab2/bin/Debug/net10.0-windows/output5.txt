@@ -1,17 +1,17 @@
+Tên phim: Mai
+Số phòng chiếu: 2
+Tổng số ghế: 30
+Số vé bán: 1
+Số vé tồn: 29
+Tỉ lệ vé bán: 3.3333333333333335
+Doanh thu: 25000
+Xếp hạng: 1
+
 Tên phim: Đào, phở và piano
 Số phòng chiếu: 3
 Tổng số ghế: 45
 Số vé bán: 0
 Số vé tồn: 45
-Tỉ lệ vé bán: 0
-Doanh thu: 0
-Xếp hạng: 1
-
-Tên phim: Mai
-Số phòng chiếu: 2
-Tổng số ghế: 30
-Số vé bán: 0
-Số vé tồn: 30
 Tỉ lệ vé bán: 0
 Doanh thu: 0
 Xếp hạng: 2
